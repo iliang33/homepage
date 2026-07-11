@@ -125,9 +125,15 @@ main {
 }
 
 
-/* DO MEDIA QUERIES FOR OTHER BREAKPOINTS LIKE TABLETS*/
+@media (width >= 1200px) {
+    main {
+        height: 300vh;
+    }
 
-@media (width > 700px) and (width <= 1200px) {
+}
+
+
+@media (width > 700px) and (width < 1200px) {
     #navbar {
         font-size: 20px;
     }
